@@ -1,1 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T22:57:47.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.0" etag="h9bwTcd0gYYnpqruRzIX" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-08T10:09:48.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="gDu12x4ud_-RMss8-GGu" version="15.7.0" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1340" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="game over&lt;br&gt;guesser wins!" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#9AC7BF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="380" y="639.9300000000001" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-0" value="&lt;h1&gt;&lt;b style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Hangman&lt;/b&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;is a&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Paper-and-pencil_game&quot; title=&quot;Paper-and-pencil game&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400&quot;&gt;paper and pencil&lt;/a&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Guessing#Guessing_games&quot; title=&quot;Guessing&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400&quot;&gt;guessing game&lt;/a&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;for two or more players. One player thinks of a&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Word&quot; title=&quot;Word&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400&quot;&gt;word&lt;/a&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Phrase&quot; title=&quot;Phrase&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400&quot;&gt;phrase&lt;/a&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;or&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Sentence_(linguistics)&quot; title=&quot;Sentence (linguistics)&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400&quot;&gt;sentence&lt;/a&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;and the other(s) tries to guess it by suggesting&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Letter_(alphabet)&quot; title=&quot;Letter (alphabet)&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400&quot;&gt;letters&lt;/a&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;within a certain number of guesses.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;If the guessing player suggests a letter which occurs in the word, the other player writes it in all its correct positions. If the suggested letter does not occur in the word, the other player draws one element of a hanged&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Stick_figure&quot; title=&quot;Stick figure&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px&quot;&gt;stick figure&lt;/a&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;as a&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Tally_marks&quot; title=&quot;Tally marks&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px&quot;&gt;tally mark&lt;/a&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;The player guessing the word may, at any time, attempt to guess the whole word.&lt;/span&gt;&lt;sup class=&quot;noprint Inline-Template Template-Fact&quot; style=&quot;line-height: 1 ; font-size: 11.2px ; color: rgb(32 , 33 , 34) ; font-family: sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;[&lt;i&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Citation_needed&quot; title=&quot;Wikipedia:Citation needed&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none&quot;&gt;&lt;span title=&quot;This claim needs references to reliable sources. (May 2020)&quot;&gt;citation needed&lt;/span&gt;&lt;/a&gt;&lt;/i&gt;]&lt;/sup&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;If the word is correct, the game is over and the guesser wins. Otherwise, the other player may choose to penalize the guesser by adding an element to the diagram. On the other hand, if the guesser makes enough incorrect guesses to allow the other player to complete the diagram, the guesser loses. However, the guesser can also win by guessing all the letters that appear in the word, thereby completing the word, before the diagram is completed.&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="50" width="1080" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-4" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtqJ0CUzFwoohXoZ0QMC-5" target="OtqJ0CUzFwoohXoZ0QMC-6">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtqJ0CUzFwoohXoZ0QMC-6" target="OtqJ0CUzFwoohXoZ0QMC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-5" value="letter is in word phrase" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="499.93" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-11" value="draw correct letter on board" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="519.9300000000001" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-16" value="guesse letter in word/phrase/sentence" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="400.00000000000006" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtqJ0CUzFwoohXoZ0QMC-16" target="OtqJ0CUzFwoohXoZ0QMC-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="574.9300000000001" as="sourcePoint" />
+            <mxPoint x="660" y="524.9300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-20" value="hangman complete?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1120" y="499.93" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-6" value="p1 draws on hangman" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="920" y="519.9300000000001" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtqJ0CUzFwoohXoZ0QMC-5" target="OtqJ0CUzFwoohXoZ0QMC-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="539.9300000000001" as="sourcePoint" />
+            <mxPoint x="1110" y="539.9300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtqJ0CUzFwoohXoZ0QMC-20" target="OtqJ0CUzFwoohXoZ0QMC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="390.00000000000006" as="sourcePoint" />
+            <mxPoint x="1070" y="390.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OtqJ0CUzFwoohXoZ0QMC-29">
+          <mxGeometry x="-0.6847" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-32" value="game over&lt;br&gt;guesser looses" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#C3ABD0;strokeColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1110" y="639.9300000000001" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-33" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtqJ0CUzFwoohXoZ0QMC-20" target="OtqJ0CUzFwoohXoZ0QMC-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="500" as="sourcePoint" />
+            <mxPoint x="840" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-34" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OtqJ0CUzFwoohXoZ0QMC-33">
+          <mxGeometry x="-0.0754" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-35" value="word/phrase complete?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="499.9300000000001" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-40" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtqJ0CUzFwoohXoZ0QMC-35" target="OtqJ0CUzFwoohXoZ0QMC-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="520" as="sourcePoint" />
+            <mxPoint x="670" y="759.9300000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-42" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OtqJ0CUzFwoohXoZ0QMC-40">
+          <mxGeometry x="-0.5581" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-41" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtqJ0CUzFwoohXoZ0QMC-11" target="OtqJ0CUzFwoohXoZ0QMC-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="680" as="sourcePoint" />
+            <mxPoint x="840" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-45" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;entryX=0.428;entryY=-0.007;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtqJ0CUzFwoohXoZ0QMC-35" target="WIyWlLk6GJQsqaUBKTNV-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="769.9300000000001" as="sourcePoint" />
+            <mxPoint x="900" y="719.9300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-48" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OtqJ0CUzFwoohXoZ0QMC-45">
+          <mxGeometry x="0.1667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-46" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtqJ0CUzFwoohXoZ0QMC-5" target="OtqJ0CUzFwoohXoZ0QMC-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="789.3299999999999" y="579.9300000000001" as="sourcePoint" />
+            <mxPoint x="789.3299999999999" y="639.9300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtqJ0CUzFwoohXoZ0QMC-47" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OtqJ0CUzFwoohXoZ0QMC-46">
+          <mxGeometry x="-0.0754" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
