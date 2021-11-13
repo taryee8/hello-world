@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T00:12:35.468Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.3" etag="EJNFUkMdx4Bb99q_Tpux" type="github"><diagram id="ublEg1X7SDvhK_57GtLE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-13T01:52:19.902Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Hn3weUdHvIvDhkoAF7IM" version="15.7.3" type="github">
+  <diagram id="ublEg1X7SDvhK_57GtLE" name="Page-1">
+    <mxGraphModel dx="557" dy="347" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WJwLtmvxomKUNawE6RE6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJwLtmvxomKUNawE6RE6-1" target="WJwLtmvxomKUNawE6RE6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-1" value="Start game with High vs Low logo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJwLtmvxomKUNawE6RE6-2" target="WJwLtmvxomKUNawE6RE6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-2" value="Ask user to enter a or b for higher followers" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-6" value="User enters incorrect value -&amp;gt; game exits -&amp;gt; # of attemps is printed" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-9" value="&lt;span&gt;Compare A: &quot; player name&quot;, &quot;what they do&quot;, &quot;where they are from&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-10" value="&lt;span&gt;Against B: &quot; player name&quot;, &quot;what they do&quot;, &quot;where they are from&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-11" value="&lt;span&gt;Who has more followers? &lt;br&gt;Type &#39;A&#39; or &#39;B&#39;.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-13" value="Clear Screen -&amp;gt; show high/low logo&lt;br&gt;Print -&amp;gt; Sorry, that&#39;s wrong.&amp;nbsp; Final score #" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="155" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-14" value="Correct answer -&amp;gt;&amp;nbsp;&lt;br&gt;previous Star is A&lt;br&gt;new Star is B" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="WJwLtmvxomKUNawE6RE6-14" target="WJwLtmvxomKUNawE6RE6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="sourcePoint" />
+            <mxPoint x="440" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WJwLtmvxomKUNawE6RE6-17" value="show high/low logo&lt;br&gt;Print -&amp;gt; Your correct!&amp;nbsp;Current score #" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="285" width="200" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
